@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Homework 1 - Shahabudeen Sajith</title>
+
+  <!-- Custom fonts for this theme -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+
+  <!-- Theme CSS -->
+  <link href="css/freelancer.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+  <!-- Title -->
+  <section class="page-section portfolio">
+    <div class="container d-flex align-items-center flex-column">
+
+      <h1 class="masthead-heading text-uppercase mb-3">CSE 578: Homework 1</h1>
+      <h3 class="masthead-heading text-uppercase mb-0">Shahabudeen Sajith</h2>
+      <h3 class="masthead-heading text-uppercase mb-0">1216259811</h2>
+      <h3 class="masthead-heading text-uppercase mb-0">02 Sep 2019</h2>
+
+    </div>
+  </section>
+
+  <!-- Introduction -->
+  <section class="masthead bg-primary text-white text-center">
+    <div class="container d-flex align-items-center flex-column">
+
+      <h1 class="masthead-heading text-uppercase mb-5">Visualizing</h1>
+
+      <img class="masthead-avatar mb-5" src="img/logo.png" alt="">
+
+      <h1 class="masthead-heading text-uppercase mb-0">top Football Clubs</h1>
+
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <p class="masthead-subheading font-weight-light mb-0">A comparision of the skills, talent and valuations of football players in seven top clubs - <span class="font-weight-bold">Real Madrid</span>, <span class="font-weight-bold">FC Barcelona</span>, <span class="font-weight-bold">Juventus</span>, <span class="font-weight-bold">Paris Saint-Germain</span>, <span class="font-weight-bold">Manchester United</span>, <span class="font-weight-bold">Manchester City</span>, <span class="font-weight-bold">FC Bayern München</span></p>
+
+    </div>
+  </section>
+
+  <!-- Dataset Section -->
+  <section class="page-section portfolio" id="about">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase ">Dataset</h2>
+
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <div class="row">
+        <p class="lead">I am using the <span class="font-weight-bold">Fifa 19 complete player dataset</span> extracted from the latest FIFA database. The dataset lists detailed player attributes like <span class="font-weight-bold">biographical information</span>, <span class="font-weight-bold">skill levels</span> and <span class="font-weight-bold">valuations</span>. This data was preprocessed and manipulated using <span class="font-weight-bold">Google Sheets</span> before being fed to <span class="font-weight-bold">Tableau</span> for the purpose of visualizations.</p>
+      </div>
+
+      <div class="text-center mt-4">
+        <a class="btn btn-xl btn-outline-dark" href="https://www.kaggle.com/karangadiya/fifa19">
+          <i class="fas fa-link mr-2"></i>
+          Dataset Source!
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Q1 Section -->
+  <section class="page-section bg-primary text-white portfolio" id="about">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase text-white">Question 1 : Judging Talent</h2>
+
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <div class="row">
+        <p class="lead">Which teams have more talented players. In terms of the <span class="font-weight-bold">overall rating of the players</span>, what is the <span class="font-weight-bold">distribution</span> of the players. Considering a threshold of 85 to identify top talent, how many <span class="font-weight-bold">top talent players</span> are present in each team.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- V1 Section -->
+  <section class="page-section portfolio" id="about">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase ">Visualization 1: Judging Talent</h2>
+
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <img class="img-fluid" src="img/visualizations/v1.png" alt="">
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">From this <span class="font-weight-bold">Box-and-Whisker plot</span>, it is clear that <span class="font-weight-bold">Juventus</span> has more number of higher overall rated players. The other teams have more or less the same median overall player rating. Manchester City and FC Bayern München have multiple players who are rated below 60. The two extreme outliers for Juventus and FC Barcelona are <span class="font-weight-bold">Christiano Ronaldo</span> and <span class="font-weight-bold">Lionel Messi</span> respectively.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <img class="img-fluid" src="img/visualizations/v2.png" alt="">
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">This treemaps plot shows the number of top talent players in each of the 7 clubs. <span class="font-weight-bold">Real Madrid</span> comes out top, thanks to their <span class="font-weight-bold">Galácticos</span> policy. <span class="font-weight-bold">Paris Saint-Germain</span> and <span class="font-weight-bold">Manchester United</span> have very less top talent players while the remaining clubs are close to Real Madrid's count.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Q2 Section -->
+  <section class="page-section bg-primary text-white portfolio" id="about">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase text-white">Question 2 : Gauging Skill</h2>
+
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <div class="row">
+        <p class="lead">Beyond just overall rating, a player's <span class="font-weight-bold">skill level in the position they play</span> is another metric that begs comparision across different clubs. Do different clubs focus on different areas of the pitch - <span class="font-weight-bold">forward</span>, <span class="font-weight-bold">mid</span>, <span class="font-weight-bold">defense</span>? Which areas should a club target if they are considering a new signing? Which clubs outperform others in these areas?</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- V2 Section -->
+  <section class="page-section portfolio" id="about">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase ">Visualization 2: Gauging Skills</h2>
+
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">For each area of the pitch <span class="font-weight-bold">5 defining traits</span> have been defined. A <span class="font-weight-bold">radial (spider) chart</span> based on the (normalized) average scores of these traits for players who play in these areas is plotted for each area.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v3.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">The 5 defining traits for a player in the forward position are - <span class="font-weight-bold">Shot Power</span>, <span class="font-weight-bold">Acceleration</span>, <span class="font-weight-bold">Agility</span>, <span class="font-weight-bold">Finishing</span> and <span class="font-weight-bold">Jumping</span>. These traits are varied across different clubs and as such each club uses its own tactics to score goals. The highest variation in a paricular trait is for <span class="font-weight-bold">Jumping</span>.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v4.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">The 5 defining traits for a player in the midfield position are - <span class="font-weight-bold">Short Passing</span>, <span class="font-weight-bold">Balance</span>, <span class="font-weight-bold">Ball Control</span>, <span class="font-weight-bold">Dribbling</span> and <span class="font-weight-bold">Positioning</span>. <span class="font-weight-bold">Juventus</span> outperforms all other clubs in majority of these traits. The highest variation in a paricular trait is for <span class="font-weight-bold">Positioning</span>.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v5.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">The 5 defining traits for a player in the defense position are - <span class="font-weight-bold">Standing Tackle</span>, <span class="font-weight-bold">Header Accuracy</span>, <span class="font-weight-bold">Interceptions</span>, <span class="font-weight-bold">Marking</span> and <span class="font-weight-bold">Sliding Tackle</span>. <span class="font-weight-bold">Juventus</span> again outperforms all other clubs in majority of these traits and that too by a huge margin. Although not obvious from a static image, in an interactive visualization one can see that <span class="font-weight-bold">Paris Saint-Germain</span> has the poorest defence.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v6.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">The 5 defining traits for a player in the goalkeeping position are - <span class="font-weight-bold">Reflexes</span>, <span class="font-weight-bold">Diving</span>, <span class="font-weight-bold">Handling</span>, <span class="font-weight-bold">Kicking</span> and <span class="font-weight-bold">Positioning</span>. <span class="font-weight-bold">Manchester United</span> has the most well-rounded goalkeepers, whereas <span class="font-weight-bold">Manchester City</span> really need to improve all these traits in their goalkeepers. There is quite a high amount of variance across all traits.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Q3 Section -->
+  <section class="page-section bg-primary text-white portfolio" id="about">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase text-white">Question 3 : Assessing Valuations</h2>
+
+      <div class="divider-custom divider-light">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <div class="row">
+        <p class="lead">Given these skills and perceived talent, how are the players of these clubs evaluated in the transfer market? Does the position of a player affect their valuation? Does being in a particular club correlate with a player's wages? How does the evaluation vary according to age/experience?</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- V3 Section -->
+  <section class="page-section portfolio" id="about">
+    <div class="container">
+
+      <h2 class="page-section-heading text-center text-uppercase ">Visualization 3: Assessing Valuations</h2>
+
+      <div class="divider-custom">
+        <div class="divider-custom-line"></div>
+        <div class="divider-custom-icon">
+          <i class="fas fa-star"></i>
+        </div>
+        <div class="divider-custom-line"></div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">For each position of the pitch (<span class="font-weight-bold">forward</span>, <span class="font-weight-bold">midfield</span>, <span class="font-weight-bold">defense</span>, <span class="font-weight-bold">goalkeeping</span>) the valuations of each player is plotted as a <span class="font-weight-bold">scaled dot scatter plot</span>. The <span class="font-weight-bold">color</span> of the dot is indicative of the <span class="font-weight-bold">cost</span> of valuation. The <span class="font-weight-bold">size</span> of the dot is indicative of the <span class="font-weight-bold">overall rating</span> of the player. Generally, the higher the valuation the greater the overall rating.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v7.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">Forward players have the <span class="font-weight-bold">highest</span> valuation - to win matches you need to score goals. The extreme outliers in FC Barcelona and Paris Saint-Germain are <span class="font-weight-bold">Lionel Messi</span> and <span class="font-weight-bold">Kylian Mbappe</span> respectively. There aren't enough forward players in <span class="font-weight-bold">FC Bayern München</span> indicating that they rely on their <span class="font-weight-bold">offensive midfielders</span> to score goals.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v8.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">Midfield players earn <span class="font-weight-bold">considerably less</span> than their forward counterparts. The extreme outlier in Manchester City is <span class="font-weight-bold">Kevin De Bruyne</span>. <span class="font-weight-bold">Juventus</span> has the strongest midfield yet none of their players earn <span class="font-weight-bold">over 50M</span>.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v9.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">Defense players earn <span class="font-weight-bold">even less</span> than midfield players. <span class="font-weight-bold">Paris Saint-Germain</span> should invest in better players to improve their defense. <span class="font-weight-bold">FC Bayern München</span> has an expensive defense lineup suggesting that they play more defensively</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v10.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">Goalkeepers earn more or less the same as defense players. <span class="font-weight-bold">Manchester United</span> has the most <span class="font-weight-bold">expensive</span> goalkeeper - which is why their Goalkeeping skills are the best among the 7 clubs.</p>
+      </div>
+
+      <br/>
+      <br/>
+
+      <div class="row">
+        <div class="col-md-10 text-center">
+            <img class="img-fluid" src="img/visualizations/v11.png" alt="">
+        </div>
+      </div>
+
+      <br/>
+
+      <div class="row">
+        <p class="lead">Here the size and color of the dot indicates the valuation of the player. As a general trend, <span class="font-weight-bold">valuation increases with age</span> and <span class="font-weight-bold">higher rated players are valued more</span>. However, the overall rating (and consequently their valuation) tends to <span class="font-weight-bold">decrease after a certain age</span> (26) as indicated by the falling red circles. However, two outliers do exist - <span class="font-weight-bold">Lionel Messi</span> and <span class="font-weight-bold">Cristiano Ronaldo</span> are still rated close to <span class="font-weight-bold">93</span> despite being <span class="font-weight-bold">31</span> years old - truly a remarkable achievement. On the other side of the spectrum, <span class="font-weight-bold">Kylian Mbappe</span> - the red dot at age <span class="font-weight-bold">19</span>, is the most promising top talent of the future.</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Copyright Section -->
+  <section class="copyright py-4 text-center text-white">
+    <div class="container">
+      <small>Theme by <a href="https://startbootstrap.com/themes/freelancer/">Freelance</a>, a free to use, MIT licensed Bootstrap theme created by
+            <a href="http://startbootstrap.com">Start Bootstrap</a></small>
+    </div>
+  </section>
+
+  <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
+  <div class="scroll-to-top d-lg-none position-fixed ">
+    <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
+      <i class="fa fa-chevron-up"></i>
+    </a>
+  </div>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+</body>
+
+</html>
