@@ -1,0 +1,94 @@
+{
+  "name": "Courses",
+  "rate": 0.03,
+  "children": [{
+      "name": "Systems",
+      "rate": -0.01,
+      "color": "#2d98f0",
+      "children": [{
+        "name": "Digital Electronics",
+        "rate": 0,
+        "value": 1,
+        "color": "#2d98f0"
+      },
+      {
+        "name": "Operating Systems",
+        "rate": 0,
+        "value": 1,
+        "color": "#2d98f0"
+      },
+      {
+        "name": "Computer Architecture",
+        "rate": 0,
+        "value": 1,
+        "color": "#2d98f0"
+      }
+    ]
+    },
+    {
+      "name": "Foundations",
+      "rate": -0.01,
+      "color": "#4054b2",
+      "children": [{
+        "name": "Advanced Engineering Mathematics",
+        "rate": 0,
+        "value": 1,
+        "color": "#4054b2"
+      },
+      {
+        "name": "Principles of Programming Languages",
+        "rate": 0,
+        "value": 1,
+        "color": "#4054b2"
+      },
+      {
+        "name": "Theory of Computation",
+        "rate": 0,
+        "value": 1,
+        "color": "#4054b2"
+      },
+      {
+        "name": "Data Structures",
+        "rate": 0,
+        "value": 1,
+        "color": "#4054b2"
+      }
+    ]
+    }, {
+      "name": "Applications",
+      "rate": -0.01,
+      "color": "#2fa499",
+      "children": [{
+        "name": "Natural Language Processing",
+        "rate": 0,
+        "value": 1,
+        "color": "#2fa499"
+      },
+      {
+        "name": "Human Computer Interaction",
+        "rate": 0,
+        "value": 1,
+        "color": "#2fa499"
+      },
+      {
+        "name": "Fundamentals of Statistical Learning",
+        "rate": 0,
+        "value": 1,
+        "color": "#2fa499"
+      },
+      {
+        "name": "Data Processing at Scale",
+        "rate": 0,
+        "value": 1,
+        "color": "#2fa499"
+      },
+      {
+        "name": "Data Visualization",
+        "rate": 0,
+        "value": 1,
+        "color": "#2fa499"
+      }
+    ]
+    }
+  ]
+}

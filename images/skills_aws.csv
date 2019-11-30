@@ -1,0 +1,8 @@
+name,value,x,y
+EC2,90,-32,-184
+Opsworks,90,-72,-156
+S3,85,-21,-127
+DynamoDB,75,-84,-99
+Elasticache,70,-81,-71
+VPC,60,-34,-41
+IAM,60,-32,-13

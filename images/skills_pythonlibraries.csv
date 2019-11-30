@@ -1,0 +1,6 @@
+name,value,x,y
+NumPy,90,-60,-176
+Pandas,85,-61,-137
+Sklearn,75,-60,-97
+Keras,70,-48,-58
+TensorFlow,70,-85,-20

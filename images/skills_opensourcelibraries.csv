@@ -1,0 +1,5 @@
+name,value,x,y
+Docker,90,-60,-170
+Django,85,-60,-120
+ZMQ,70,-45,-70
+HAProxy,60,-68,-20
